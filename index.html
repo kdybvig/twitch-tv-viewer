@@ -1,0 +1,21 @@
+<head>
+  <title>Twitch TV Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type= "text/css" href="./main.css">
+</head>
+<body>
+  <div id="container">
+    <div class ="box" id="title-box"><h1>Twitch TV Viewer</h1>
+      <p>
+        <button onClick ='getAllUsers()' class ="white">All</button><button onClick ='getOnlineUsers()'>Online</button><button onClick ='getOfflineUsers()'>Offline</button>
+        <div id = 'searchFor'>
+          <i class = 'fa fa-search'></i>
+          <input placeholder = ' Search' oninput = 'searchFor(this.value)'/>
+        </div>
+      </p>
+    </div>
+  </div>
+</body>
+<footer>
+  <script src="./script.js"></script>
+</footer>
